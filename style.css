@@ -1,5 +1,15 @@
-h1 {
-    font-family: 'Raleway',sans-serif ; font-weight: 500;
+body{
+    background-image: url("https://i.goopics.net/tx3kin.png");
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+*{
+    margin: 0px;
+    padding: 0px;
+    
 }
 
 nav ul{
@@ -44,4 +54,8 @@ nav a:hover{
     background-color: #82bad9;
     opacity: 1;
     border: 2px solid black;
+}
+
+h1 {
+    font-family: 'Raleway',sans-serif ; font-weight: 500;
 }
