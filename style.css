@@ -67,6 +67,7 @@ h1 {
 
 .Bienvenue {
     background-color: #FFFFFF88;
+    background-size: contain;
     padding: 12px;
 }
 
