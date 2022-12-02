@@ -29,7 +29,7 @@ nav li{
     width: 25%;
     text-align: center;
     border: 2px black;
-    opacity: 0.7;
+    opacity: 0.78;
 }
 
 nav{
@@ -52,10 +52,12 @@ nav a{
 }
 
 nav a:hover{
+    font-weight: bold;
     color:black;
-    background-color: #82bad9;
-    opacity: 1;
+    background-color: #2f79a1;
+    transition-duration: 0.3s;
     border: 2px solid black;
+
 }
 
 .menu{
@@ -65,24 +67,137 @@ nav a:hover{
 /* ------------------------ */
 
 h1 {
+    margin-bottom: 60px;
+    margin-top: 65px;
+    text-align: center;
     font-family: 'Raleway',sans-serif ; font-weight: 500;
-    font-size: 48px;
+    font-size: 50px;
+}
+
+h1 span {
+    background: fixed;
+    background-color: rgba(29, 150, 35, 0.422);
+    padding-top: 16px;
+    padding-left: 50px; padding-right: 50px;
+    padding-bottom: 16px;
+    border-radius: 25px;
 }
 
 
 
 h2 {
+    text-align: center;
     font-family: 'Raleway',sans-serif ; font-weight: 500;
-    font-size: 44px;
+    font-size: 48px;
 }
 
 h2 span {
 
     background: fixed;
-    background-color: #FFFFFF88
+    background-color: #FFFFFF88;
+    padding-top: 16px;
+    padding-left: 20px;
+    padding-bottom: 16px;
+    padding-right: 20px;
+    border-radius: 25px;
 }
 
 h3 {
+    margin-top: 20px; 
+    text-align: center;
     font-family: 'Raleway',sans-serif ; font-weight: 500;
     font-size: 31px;
 }
+
+.Decouverte {
+
+    position: absolute; left: 50%;
+    -ms-transform: translate(-50%, -50%); transform: translate(-50%, -50%);
+    margin-top: 100px;
+    padding-top:10px ; padding-bottom: 10px; padding-left: 15px; padding-right: 15px;
+    font-size: 20px;
+    transition-duration: 650ms;
+    border: 2px solid #000000; border-radius: 25px;
+    font-family: 'Raleway',sans-serif ; font-weight: 500;
+}
+
+.Decouverte:hover {
+    background-color: rgb(29, 150, 35); 
+    color: rgb(255, 255, 255); 
+    border: 2px solid rgb(29, 150, 35);
+    cursor: pointer;
+}
+
+.Rubrique {
+    margin-left: 4%;
+    margin-top: 25px;
+    font-size: 32px;
+    font-family: 'Raleway',sans-serif ; font-weight: 500;
+}
+
+.Rubrique span {
+    background: fixed;
+    background-color: #FFFFFF88;
+    padding-top: 10px;
+    padding-left: 18px;
+    padding-bottom: 10px;
+    padding-right: 38px;
+    border-radius: 25px;
+}
+
+.Text {
+    margin-top: 35px; margin-left: 7%; margin-bottom: 55px; margin-right: 25px;
+    font-family: 'Raleway',sans-serif ; font-weight: 500;
+    line-height: 29px;
+}
+
+.Text span {
+    background:fixed;
+    background-color: #ffffff52;
+    padding-top: 10px;
+    padding-left: 18px;
+    padding-bottom: 10px;
+    padding-right: 18px;
+    border-radius: 25px;
+    display: inline-block;
+}
+
+/*
+.SISR {
+    margin-top: 35px; margin-left: 7%; margin-bottom: 55px; margin-right: 25px;
+    font-family: 'Raleway',sans-serif ; font-weight: 500;
+    line-height: 29px;
+}
+
+.SISR span {
+    background:fixed;
+    background-color: #ffffff52;
+    padding-top: 10px;
+    padding-left: 18px;
+    padding-bottom: 10px;
+    padding-right: 18px;
+    margin-left: 25%;
+    border-radius: 25px;
+    display: inline-block;
+    font-size: 30px;
+}
+
+.SLAM {
+    margin-top: 35px; margin-left: 7%; margin-bottom: 55px; margin-right: 25px;
+    font-family: 'Raleway',sans-serif ; font-weight: 500;
+    line-height: 29px;
+}
+
+.SLAM span {
+    background:fixed;
+    background-color: #ffffff52;
+    padding-top: 10px;
+    padding-left: 18px;
+    padding-bottom: 10px;
+    padding-right: 18px;
+    margin-right: 25%;
+    border-radius: 25px;
+    display: inline-block;
+    font-size: 30px;
+}
+*/
