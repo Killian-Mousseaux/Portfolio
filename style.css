@@ -26,7 +26,7 @@ nav ul::after{
 
 nav li{
     float: left;
-    width: 25%;
+    width: 20%;
     text-align: center;
     border: 2px black;
     opacity: 0.78;
@@ -103,17 +103,27 @@ h2 span {
 }
 
 h3 {
-    margin-top: 20px; 
+    margin-top: 10px; 
     text-align: center;
     font-family: 'Raleway',sans-serif ; font-weight: 500;
-    font-size: 31px;
+    font-size: 27px;
 }
+
+h3 span {
+
+    background: fixed;
+    background-color: rgb(57, 190, 183,0.312);
+    padding-top: 7px;
+    padding-left: 14px;
+    padding-bottom: 7px;
+    padding-right: 14px;
+    border-radius: 15px;
+}
+
 
 .Decouverte {
 
-    position: absolute; left: 50%;
     -ms-transform: translate(-50%, -50%); transform: translate(-50%, -50%);
-    margin-top: 100px;
     padding-top:10px ; padding-bottom: 10px; padding-left: 15px; padding-right: 15px;
     font-size: 20px;
     transition-duration: 650ms;
@@ -125,6 +135,23 @@ h3 {
     background-color: rgb(29, 150, 35); 
     color: rgb(255, 255, 255); 
     border: 2px solid rgb(29, 150, 35);
+    cursor: pointer;
+}
+
+.CV {
+
+    -ms-transform: translate(-50%, -50%); transform: translate(-50%, -50%);
+    padding-top:10px ; padding-bottom: 10px; padding-left: 15px; padding-right: 15px;
+    font-size: 20px;
+    transition-duration: 650ms;
+    border: 2px solid #000000; border-radius: 25px;
+    font-family: 'Raleway',sans-serif ; font-weight: 500;
+}
+
+.CV:hover {
+    background-color: rgb(57, 190, 183); 
+    color: rgb(255, 255, 255); 
+    border: 2px solid rgb(57, 190, 183); 
     cursor: pointer;
 }
 
