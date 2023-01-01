@@ -164,7 +164,7 @@ h3 span {
 
 .Rubrique span {
     background: fixed;
-    background-color: rgba(35, 205, 44, 0.468);
+    background-color: #FFFFFF88;
     padding-top: 10px;
     padding-left: 18px;
     padding-bottom: 10px;
@@ -189,30 +189,15 @@ h3 span {
     display: inline-block;
 }
 
-.Tabl {
-    margin-top: 17px; margin-bottom: 5px; margin-right: 75px;
-    font-family: 'Raleway',sans-serif ; font-weight: 500;
-    line-height: 29px;
-}
 
-.Tabl span {
-    background:fixed;
-    background-color: #ffffff52;
-    padding-top: 4px;
-    padding-left: 18px;
-    padding-bottom: 10px;
-    padding-right: 18px;
-    border-radius: 25px;
-    display: inline-block;
-}
+/* ----------------------------------------------------------------------------------------------------- */
 
-/* -------------------------------------------------------------------------------------------------------------------------- */
 
  /* Style the tab */
  .tab {
     overflow: hidden;
+    border: 1px solid #ccc;
     background-color: #f1f1f1;
-    position: absolute; left: 7%;
   }
   
   /* Style the buttons inside the tab */
@@ -229,12 +214,12 @@ h3 span {
   
   /* Change background color of buttons on hover */
   .tab button:hover {
-    background-color: rgb(57, 190, 183);
+    background-color: #ddd;
   }
   
   /* Create an active/current tablink class */
   .tab button.active {
-    background-color: rgba(57, 190, 183, 0.678);
+    background-color: #ccc;
   }
   
   /* Style the tab content */
@@ -243,55 +228,4 @@ h3 span {
     padding: 6px 12px;
     border: 1px solid #ccc;
     border-top: none;
-    background-color: hsla(0, 0%, 100%, 0.638);
-    margin-top: 106px;
-    position: relative; left: 7%;
-    animation: fadeEffect 1s; /* Fading effect takes 1 second */
-}
-
-@keyframes fadeEffect {
-    from {opacity: 0;}
-      to {opacity: 1;}
-    }
-
-
-
-/*
-.SISR {
-    margin-top: 35px; margin-left: 7%; margin-bottom: 55px; margin-right: 25px;
-    font-family: 'Raleway',sans-serif ; font-weight: 500;
-    line-height: 29px;
-}
-
-.SISR span {
-    background:fixed;
-    background-color: #ffffff52;
-    padding-top: 10px; 
-    padding-left: 18px;
-    padding-bottom: 10px;
-    padding-right: 18px;
-    margin-left: 25%;
-    border-radius: 25px;
-    display: inline-block;
-    font-size: 30px;
-}
-
-.SLAM {
-    margin-top: 35px; margin-left: 7%; margin-bottom: 55px; margin-right: 25px;
-    font-family: 'Raleway',sans-serif ; font-weight: 500;
-    line-height: 29px;
-}
-
-.SLAM span {
-    background:fixed;
-    background-color: #ffffff52;
-    padding-top: 10px;
-    padding-left: 18px;
-    padding-bottom: 10px;
-    padding-right: 18px;
-    margin-right: 25%;
-    border-radius: 25px;
-    display: inline-block;
-    font-size: 30px;
-}
-*/
+  }

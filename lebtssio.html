@@ -7,10 +7,11 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@300;400;500&display=swap" rel="stylesheet">
-    <title>Le BTS SIO</title>
+    <title>Le BTS SIO 2</title>
 </head>
 <body>
     <link rel="stylesheet" href="style.css">
+    <script src="tableau.js"></script>
      
     <div class="menu">
         <nav>
@@ -26,32 +27,35 @@
     <h1 class="Titre"><span> Le BTS SIO </span></h1> 
         <p class="Rubrique"><span>Qu'est-ce que le BTS SIO ?</span></p>
             <p class="Text"><span>
-                Le BTS SIO est l'acronyme pour Brevet de Technicien Supérieur Services Informatiques aux Organisations. <br> Il s'agit d'une formation reconnue par l'état en 2 ans, et remplace depuis 2011 l'ancien BTS Informatique de Gestion (BTS IG) <br><br> Le BTS SIO possède deux options proposant un tronc commun similaire et une spécialisation en Réseaux ou Développement           
-                <br>           
+                Le BTS SIO est l'acronyme pour Brevet de Technicien Supérieur Services Informatiques aux Organisations. <br> Il s'agit d'une formation reconnue par l'état en 2 ans, et remplace depuis 2011 l'ancien BTS Informatique de Gestion (BTS IG) <br><br> Le BTS SIO possède deux options proposant un tronc commun similaire et une spécialisation en Réseaux ou Développement
             </span></p>
 
-            <h3><span> Tronc Commun </span></h3>
-
-            <p class="Text"><span>
-                Le tronc commun est constitué de Mathématiques pour l'Informatique, de Culture Générale, d'Anglais, de Cybersécurité, de Culture Économique Juridique et Managériale, d'Ateliers de Professionnalisation ainsi que de cours de Certifications. Enfin, il y a des cours d'Algorithmique Informatique exclusivement en première année.
-                <br>           
-            </span></p>
-
-            <h3><span> SISR </span></h3>
-
-            <p class="Text"><span>
-                L'option SISR s'adresse aux étudiants qui s'orientent vers des métiers liés à la conception et la maintenance d'infrastructures réseau. On apprend à modifier ,adapter des solutions d'infrastructure, ainsi que la qualité de service des équipements du réseau. On acquiert des compétences pour concevoir une solution d'infrastructure réseau, la tester, l'installer, la déployer, l'administrer, et la superviser.
-                <br>           
-            </span></p>
-
-            <h3><span> SLAM </span></h3>
-
-            <p class="Text"><span>
-                L'option SLAM s'adresse aux étudiants qui s'orientent vers des métiers liés à la conception et la maintenance de programmes applicatifs. On apprend à concevoir, développer, déployer des composants logiciels d'une solution applicative et en faire la maintenance. On acquiert des compétences en conception, développement, maintenance d'une solution applicative, mais également en bases de données et gestion de données numériques.
-                <br>           
-            </span></p>
+            <div class="tab">
+                <button class="tablinks" onclick="openCity(event, 'TC')">Tronc Commun</button>
+                <button class="tablinks" onclick="openCity(event, 'SISR')">SISR</button>
+                <button class="tablinks" onclick="openCity(event, 'SLAM')">SLAM</button>
+                </div>
+              
+              <div id="TC" class="tabcontent">
+                <h3>Tronc Commun</h3>
+                <p class="Tabl">Le tronc commun est constitué de Mathématiques pour l'Informatique, de Culture Générale, d'Anglais, de Cybersécurité, de Culture Économique Juridique et Managériale, d'Ateliers de Professionnalisation ainsi que de cours de Certifications. Enfin, il y a des cours d'Algorithmique Informatique exclusivement en première année.</p>
+                <br><span onclick="this.parentElement.style.display='none'">Fermer</span>            
+                </div>
+              
+              <div id="SISR" class="tabcontent">
+                <h3>SISR</h3>
+                <p class="Tabl">L'option SISR s'adresse aux étudiants qui s'orientent vers des métiers liés à la conception et la maintenance d'infrastructures réseau. On apprend à modifier ,adapter des solutions d'infrastructure, ainsi que la qualité de service des équipements du réseau. On acquiert des compétences pour concevoir une solution d'infrastructure réseau, la tester, l'installer, la déployer, l'administrer, et la superviser.</p> 
+                <br><span onclick="this.parentElement.style.display='none'">Fermer</span>            
+                </div>
+              
+              <div id="SLAM" class="tabcontent">
+                <h3>SLAM</h3>
+                <p class="Tabl">L'option SLAM s'adresse aux étudiants qui s'orientent vers des métiers liés à la conception et la maintenance de programmes applicatifs. On apprend à concevoir, développer, déployer des composants logiciels d'une solution applicative et en faire la maintenance. On acquiert des compétences en conception, développement, maintenance d'une solution applicative, mais également en bases de données et gestion de données numériques.</p>
+                <br><span onclick="this.parentElement.style.display='none'">Fermer</span>
+                </div>
         
-        <p class="Rubrique"><span>Travaux en classe</span></p>
+        <br>
+        <p class="Rubrique" style="margin-top: 80px;"><span>Travaux en classe</span></p>
 
             <p class="Text"><span>
                 Durant les cours de Réseau, nous sommes ammenés à traîter des TPs nous permettant d'apprendre les concepts liés à l'administration d'un réseau, comme la création d'un tunnel VPN fonctionnel, l'utilisation du RAID ou encore la réplication de données en temps réel.
