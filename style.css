@@ -1,10 +1,11 @@
 body{
-    background-image: url("https://i.goopics.net/tx3kin.png");
+    background-image: url(./assets/bg.jpg);
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
 }
+
 
 /* - Menu de navigation - */
 
@@ -36,7 +37,7 @@ nav{
     width: 100%;
     margin: 0 auto;
     background-color: white;
-    position: sticky;
+    position: fixed;
     top: 0px;
     list-style-type: none
 }
@@ -54,7 +55,7 @@ nav a{
 nav a:hover{
     font-weight: bold;
     color:black;
-    background-color: #2f79a1;
+    background-color: #d58535;
     transition-duration: 0.3s;
     border: 2px solid black;
 
@@ -76,7 +77,7 @@ h1 {
 
 h1 span {
     background: fixed;
-    background-color: rgba(29, 150, 35, 0.422);
+    background-color: rgba(179, 127, 6, 0.41);
     padding-top: 16px;
     padding-left: 50px; padding-right: 50px;
     padding-bottom: 16px;
@@ -112,7 +113,7 @@ h3 {
 h3 span {
 
     background: fixed;
-    background-color: rgb(57, 190, 183,0.312);
+    background-color: rgba(212, 133, 43, 0.312);
     padding-top: 7px;
     padding-left: 14px;
     padding-bottom: 7px;
@@ -132,9 +133,9 @@ h3 span {
 }
 
 .Decouverte:hover {
-    background-color: rgb(29, 150, 35); 
+    background-color: rgb(200, 135, 38); 
     color: rgb(255, 255, 255); 
-    border: 2px solid rgb(29, 150, 35);
+    border: 2px solid rgb(200, 135, 38);
     cursor: pointer;
 }
 
@@ -149,9 +150,9 @@ h3 span {
 }
 
 .CV:hover {
-    background-color: rgb(57, 190, 183); 
+    background-color: rgb(225, 130, 67); 
     color: rgb(255, 255, 255); 
-    border: 2px solid rgb(57, 190, 183); 
+    border: 2px solid rgb(225, 130, 67);
     cursor: pointer;
 }
 
@@ -164,7 +165,7 @@ h3 span {
 
 .Rubrique span {
     background: fixed;
-    background-color: rgba(35, 205, 44, 0.468);
+    background-color: rgba(233, 167, 0, 0.326);
     padding-top: 10px;
     padding-left: 18px;
     padding-bottom: 10px;
@@ -214,7 +215,7 @@ h3 span {
     background-color: #f1f1f1;
     position: absolute; left: 7%;
     margin-right: 150px;
-  }
+}
   
   /* Style the buttons inside the tab */
   .tab button {
@@ -230,12 +231,12 @@ h3 span {
   
   /* Change background color of buttons on hover */
   .tab button:hover {
-    background-color: rgb(57, 190, 183);
+    background-color: rgb(218, 179, 26);
   }
   
   /* Create an active/current tablink class */
   .tab button.active {
-    background-color: rgba(57, 190, 183, 0.678);
+    background-color: rgba(221, 158, 48, 0.678);
   }
   
   /* Style the tab content */
