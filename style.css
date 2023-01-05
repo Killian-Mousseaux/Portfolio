@@ -190,7 +190,7 @@ h3 span {
 }
 
 .Tabl {
-    margin-top: 17px; margin-bottom: 5px; margin-right: 75px;
+    margin-top: 17px; margin-bottom: 5px;
     font-family: 'Raleway',sans-serif ; font-weight: 500;
     line-height: 29px;
 }
@@ -213,6 +213,7 @@ h3 span {
     overflow: hidden;
     background-color: #f1f1f1;
     position: absolute; left: 7%;
+    margin-right: 150px;
   }
   
   /* Style the buttons inside the tab */
@@ -244,7 +245,7 @@ h3 span {
     border: 1px solid #ccc;
     border-top: none;
     background-color: hsla(0, 0%, 100%, 0.638);
-    margin-top: 106px;
+    margin-top: 106px; margin-right: 150px;
     position: relative; left: 7%;
     animation: fadeEffect 1s; /* Fading effect takes 1 second */
 }
