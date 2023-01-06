@@ -150,9 +150,9 @@ h3 span {
 }
 
 .CV:hover {
-    background-color: rgb(225, 130, 67); 
+    background-color: rgb(206, 104, 64); 
     color: rgb(255, 255, 255); 
-    border: 2px solid rgb(225, 130, 67);
+    border: 2px solid rgb(206, 104, 64);
     cursor: pointer;
 }
 
